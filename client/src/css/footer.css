@@ -1,0 +1,23 @@
+footer{
+    background: #4c4c4c;
+    text-align: center;
+    height: 2.5em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-top: 1px dashed oldlace;
+    color: whitesmoke;
+    height: 43px;
+}
+
+.bi-instagram, .bi-github, .bi-twitter {
+    margin: 0px 14px;
+    font-size: larger;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.bi-instagram:hover, .bi-github:hover, .bi-twitter:hover{
+    color: grey;
+    transition: 150ms color;
+}

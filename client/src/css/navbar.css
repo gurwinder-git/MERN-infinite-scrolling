@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    border-bottom: 1px dashed oldlace;
+    align-items: center;
+    padding: .5em 0em;
+    background: #4c4c4c;
+    height: 43px;
+    color: white;
+}
+
+.navlinks a{
+    /* border: 1px solid; */
+    margin: 0rem 1rem;
+    font-weight: 500;
+    font-size: 1.12em;
+    color: whitesmoke;
+}
+
+.navlinks a:last-of-type{
+    margin-right: 0em;
+}
+
+.navlinks a:hover{
+    text-decoration: none;
+    transition: 2000ms;
+}
+
+h3.logo {
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+h3.logo a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+}

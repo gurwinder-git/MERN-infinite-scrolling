@@ -1,0 +1,38 @@
+@media only screen and (max-width: 843px) {
+   .cardDiv{
+       width: 98%;
+   }
+
+   ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none; 
+    /* border-radius: 15px; */
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: none; 
+    /* border-radius: 15px; */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: none; 
+  }
+
+  .loader {
+    font-size: 5px;
+    margin: 12px auto 33px auto;
+    }
+
+    nav{
+        padding: 0.5em 1em;
+    }
+    #aboutBlogDiv {
+      width: 98%;
+    }
+}
